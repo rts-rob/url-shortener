@@ -1,3 +1,5 @@
+import html404 from './404.html';
+
 export interface Env {
   URLS: KVNamespace;
 }
@@ -12,7 +14,7 @@ export default {
 
     // Redirect root url to Cloudflare docs (for now)
     if (shortCode == "") {
-      Response.redirect("https://developers.cloudflare.com");
+      return Response.redirect("https://developers.cloudflare.com");
     }
 
     // Split off any querystring parameters
@@ -23,7 +25,9 @@ export default {
 
     // If not found, return a 404
     if (redirectUrl === null) {
-      return new Response("Value not found", { status: 404 });
+      let response = new Response(html404, { status: 404 });
+      response.headers.set('content-type', 'text/html');
+      return response;
     }
 
     // The Response class has static methods to create common Response objects as a convenience
