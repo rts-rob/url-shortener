@@ -1,0 +1,326 @@
+[
+  {
+    "key": "qs",
+    "value": "https://aws.amazon.com/quicksight/"
+  },
+  {
+    "key": "jsonpath",
+    "value": "https://goessner.net/articles/JsonPath/"
+  },
+  {
+    "key": "cdksfn",
+    "value": "https://docs.aws.amazon.com/cdk/api/latest/docs/aws-stepfunctions-readme.html"
+  },
+  {
+    "key": "cdk",
+    "value": "https://github.com/aws/aws-cdk"
+  },
+  {
+    "key": "awsiam",
+    "value": "https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_managed-vs-inline.html"
+  },
+  {
+    "key": "app2025repo",
+    "value": "https://github.com/aws-samples/app-2025"
+  },
+  {
+    "key": "sqsfifoblog",
+    "value": "https://aws.amazon.com/blogs/aws/new-for-amazon-simple-queue-service-fifo-queues-with-exactly-once-delivery-deduplication/"
+  },
+  {
+    "key": "snsdocs",
+    "value": "https://docs.aws.amazon.com/sns/latest/dg/welcome.html"
+  },
+  {
+    "key": "sfnquotas",
+    "value": "https://docs.aws.amazon.com/step-functions/latest/dg/limits-overview.html"
+  },
+  {
+    "key": "kdf",
+    "value": "https://aws.amazon.com/kinesis/data-firehose/"
+  },
+  {
+    "key": "athena",
+    "value": "https://aws.amazon.com/athena/"
+  },
+  {
+    "key": "cdkdocs",
+    "value": "https://docs.aws.amazon.com/cdk/latest/guide/home.html"
+  },
+  {
+    "key": "sfnsisqs",
+    "value": "https://docs.aws.amazon.com/step-functions/latest/dg/connect-sqs.html"
+  },
+  {
+    "key": "sfnsisync",
+    "value": "https://docs.aws.amazon.com/step-functions/latest/dg/connect-to-resource.html#connect-sync"
+  },
+  {
+    "key": "sfnpaths",
+    "value": "https://states-language.net/spec.html#path"
+  },
+  {
+    "key": "cvsp",
+    "value": "https://blog.golang.org/waza-talk"
+  },
+  {
+    "key": "python",
+    "value": "https://robsutter.com/post/python-learning-resources/"
+  },
+  {
+    "key": "sqsquotas",
+    "value": "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-quotas.html"
+  },
+  {
+    "key": "owasp",
+    "value": "https://owasp.org/www-project-serverless-top-10/"
+  },
+  {
+    "key": "sff",
+    "value": "https://pages.awscloud.com/GLOBAL-event-OE-serverless-first-function-2020-reg-event.html"
+  },
+  {
+    "key": "asl",
+    "value": "https://states-language.net/spec.html"
+  },
+  {
+    "key": "twitter",
+    "value": "https://twitter.com/rts_rob/"
+  },
+  {
+    "key": "twitch",
+    "value": "https://www.twitch.tv/robsutter/"
+  },
+  {
+    "key": "sfnmapblog",
+    "value": "https://aws.amazon.com/blogs/aws/new-step-functions-support-for-dynamic-parallelism/"
+  },
+  {
+    "key": "sqsdocs",
+    "value": "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/welcome.html"
+  },
+  {
+    "key": "sfnerr",
+    "value": "https://states-language.net/spec.html#errors"
+  },
+  {
+    "key": "godi",
+    "value": "https://www.youtube.com/watch?v=Zv-42EWBsos&t=1865"
+  },
+  {
+    "key": "sfncb",
+    "value": "https://docs.aws.amazon.com/step-functions/latest/dg/connect-to-resource.html#connect-wait-token"
+  },
+  {
+    "key": "sfntwitch",
+    "value": "https://www.twitch.tv/collections/hE4cUosJChb3zA"
+  },
+  {
+    "key": "ebsr",
+    "value": "https://docs.aws.amazon.com/eventbridge/latest/userguide/eventbridge-schemas.html"
+  },
+  {
+    "key": "sfnewblog",
+    "value": "https://aws.amazon.com/blogs/aws/new-aws-step-functions-express-workflows-high-performance-low-cost/"
+  },
+  {
+    "key": "snsquotas",
+    "value": "https://docs.aws.amazon.com/general/latest/gr/sns.html#limits_sns"
+  },
+  {
+    "key": "eb",
+    "value": "https://aws.amazon.com/eventbridge/"
+  },
+  {
+    "key": "sqsfifodocs",
+    "value": "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/FIFO-queues.html"
+  },
+  {
+    "key": "app2025",
+    "value": "https://www.youtube.com/playlist?list=PLJo-rJlep0EC121zz6w967dtbNTbuwrBH"
+  },
+  {
+    "key": "sfnsiddb",
+    "value": "https://docs.aws.amazon.com/step-functions/latest/dg/connect-ddb.html"
+  },
+  {
+    "key": "sfnlimits",
+    "value": "https://docs.aws.amazon.com/step-functions/latest/dg/limits-overview.html"
+  },
+  {
+    "key": "datasets",
+    "value": "https://registry.opendata.aws/"
+  },
+  {
+    "key": "sfncompare",
+    "value": "https://docs.aws.amazon.com/step-functions/latest/dg/concepts-standard-vs-express.html"
+  },
+  {
+    "key": "github",
+    "value": "https://github.com/rts-rob/"
+  },
+  {
+    "key": "snspricing",
+    "value": "https://aws.amazon.com/sns/pricing/"
+  },
+  {
+    "key": "kdfpricing",
+    "value": "https://aws.amazon.com/kinesis/data-firehose/pricing/"
+  },
+  {
+    "key": "jsonpathevaluator",
+    "value": "https://jsonpath.com/"
+  },
+  {
+    "key": "lambdalimits",
+    "value": "https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-limits.html"
+  },
+  {
+    "key": "sfnpricing",
+    "value": "https://aws.amazon.com/step-functions/pricing/"
+  },
+  {
+    "key": "iotiam",
+    "value": "https://docs.aws.amazon.com/iot/latest/developerguide/iam-policies.html"
+  },
+  {
+    "key": "idempotency",
+    "value": "https://aws.amazon.com/premiumsupport/knowledge-center/lambda-function-idempotent/"
+  },
+  {
+    "key": "eventstorming",
+    "value": "https://medium.com/serverless-transformation/eventbridge-storming-how-to-build-state-of-the-art-event-driven-serverless-architectures-e07270d4dee"
+  },
+  {
+    "key": "sqs",
+    "value": "https://aws.amazon.com/sqs/"
+  },
+  {
+    "key": "sfnsirr",
+    "value": "https://docs.aws.amazon.com/step-functions/latest/dg/connect-to-resource.html#connect-default"
+  },
+  {
+    "key": "bettergo",
+    "value": "https://github.com/rts-rob/aws-sam-better-golang"
+  },
+  {
+    "key": "golang",
+    "value": "https://golang.serverlessworkshops.io"
+  },
+  {
+    "key": "sfnlogs",
+    "value": "https://docs.aws.amazon.com/step-functions/latest/dg/cw-logs.html"
+  },
+  {
+    "key": "sfnsam",
+    "value": "https://aws.amazon.com/blogs/compute/simplifying-application-orchestration-with-aws-step-functions-and-aws-sam/"
+  },
+  {
+    "key": "sfnnw",
+    "value": "https://aws.amazon.com/about-aws/whats-new/2019/08/aws-step-function-adds-support-for-nested-workflows/"
+  },
+  {
+    "key": "qsdocs",
+    "value": "https://docs.aws.amazon.com/quicksight/latest/user/welcome.html"
+  },
+  {
+    "key": "sfnrepo",
+    "value": "https://github.com/aws-samples/aws-step-functions-twitch-series"
+  },
+  {
+    "key": "sfnsisns",
+    "value": "https://docs.aws.amazon.com/step-functions/latest/dg/connect-sns.html"
+  },
+  {
+    "key": "sfn",
+    "value": "https://www.youtube.com/playlist?list=PLJo-rJlep0EBq0-P-2wq5tzTXjL_jmynX"
+  },
+  {
+    "key": "athenasql",
+    "value": "https://docs.aws.amazon.com/athena/latest/ug/ddl-sql-reference.html"
+  },
+  {
+    "key": "snsfiltermetrics",
+    "value": "https://aws.amazon.com/about-aws/whats-new/2018/05/amazon-sns-message-filtering-adds-support-for-amazon-cloudwatch-metrics/"
+  },
+  {
+    "key": "sns",
+    "value": "https://aws.amazon.com/sns/"
+  },
+  {
+    "key": "sfnsi",
+    "value": "https://docs.aws.amazon.com/step-functions/latest/dg/concepts-service-integrations.html"
+  },
+  {
+    "key": "athenadocs",
+    "value": "https://docs.aws.amazon.com/athena/latest/ug/what-is.html"
+  },
+  {
+    "key": "sfndata",
+    "value": "https://states-language.net/spec.html#data"
+  },
+  {
+    "key": "kdfsam",
+    "value": "https://youtu.be/jdTBtaxs0hA"
+  },
+  {
+    "key": "kdfdocs",
+    "value": "https://docs.aws.amazon.com/firehose/latest/dev/what-is-this-service.html"
+  },
+  {
+    "key": "sqspricing",
+    "value": "https://aws.amazon.com/sqs/pricing/"
+  },
+  {
+    "key": "sfnsiwait",
+    "value": "https://docs.aws.amazon.com/step-functions/latest/dg/connect-to-resource.html#connect-wait-token"
+  },
+  {
+    "key": "sfnsisfn",
+    "value": "https://docs.aws.amazon.com/step-functions/latest/dg/connect-stepfunctions.html"
+  },
+  {
+    "key": "samcli",
+    "value": "https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-install.html"
+  },
+  {
+    "key": "youtube",
+    "value": "https://www.youtube.com/c/ServerlessLand"
+  },
+  {
+    "key": "sfncbsqs",
+    "value": "https://docs.aws.amazon.com/step-functions/latest/dg/callback-task-sample-sqs.html"
+  },
+  {
+    "key": "sam",
+    "value": "https://github.com/awslabs/serverless-application-model"
+  },
+  {
+    "key": "sampolicy",
+    "value": "https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-policy-templates.html"
+  },
+  {
+    "key": "sqsfifolambda",
+    "value": "https://aws.amazon.com/blogs/compute/new-for-aws-lambda-sqs-fifo-as-an-event-source/"
+  },
+  {
+    "key": "compliance",
+    "value": "https://aws.amazon.com/compliance/services-in-scope/"
+  },
+  {
+    "key": "ebdocs",
+    "value": "https://docs.aws.amazon.com/eventbridge/index.html"
+  },
+  {
+    "key": "irgo",
+    "value": "https://github.com/rts-rob/aws-sam-iterative-replacement-golang"
+  },
+  {
+    "key": "blog",
+    "value": "https://robsutter.com"
+  },
+  {
+    "key": "eqts",
+    "value": "https://www.youtube.com/watch?v=d9Jb1WKCLd8"
+  }
+]
