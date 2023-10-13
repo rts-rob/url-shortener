@@ -1,10 +1,12 @@
 import html404 from './404.html';
+import { instrument, ResolveConfigFn } from '@microlabs/otel-cf-workers';
 
 export interface Env {
+  BASELIME_API_KEY: string;
   URLS: KVNamespace;
 }
 
-export default {
+const handler = {
   async fetch(request: Request, env: Env, _ctx: ExecutionContext): Promise<Response> {
     // Build a standard JavaScript URL object from the request's URL
     const url = new URL(request.url);
@@ -34,3 +36,15 @@ export default {
     return Response.redirect(redirectUrl + params);
   },
 };
+
+const config: ResolveConfigFn = (env: Env, _trigger) => {
+	return {
+		exporter: {
+			url: 'https://otel.baselime.io/v1',
+			headers: { 'x-api-key': env.BASELIME_API_KEY },
+		},
+		service: { name: 'url-shortener' },
+	}
+};
+
+export default instrument(handler, config);
