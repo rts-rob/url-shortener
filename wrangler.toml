@@ -1,6 +1,6 @@
 name = "url-shortener"
 main = "src/worker.ts"
-compatibility_date = "2023-10-13"
+compatibility_date = "2024-01-12"
 compatibility_flags = [ "nodejs_compat" ]
 
 logpush = true
@@ -13,3 +13,6 @@ routes = [
 [[kv_namespaces]]
 binding = "URLS"
 id = "fde811d23bd544a8ad15f3b6a2166d8c"
+
+[vars]
+SERVICE_NAME = "url-shortener"
