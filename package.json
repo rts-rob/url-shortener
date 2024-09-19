@@ -1,6 +1,6 @@
 {
-  "name": "aged-night-ab1b",
-  "version": "0.0.0",
+  "name": "url-shortener",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "deploy": "wrangler deploy",
@@ -8,12 +8,8 @@
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20230419.0",
-    "itty-router": "^3.0.12",
     "typescript": "^5.0.4",
     "wrangler": "^3.0.0"
   },
-  "dependencies": {
-    "@microlabs/otel-cf-workers": "^1.0.0-rc.14",
-    "@opentelemetry/api": "^1.4.1"
-  }
+  "dependencies": {}
 }
