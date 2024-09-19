@@ -1,17 +1,13 @@
 name = "url-shortener"
-main = "src/worker.ts"
-compatibility_date = "2024-08-15"
-compatibility_flags = ["experimental", "kv_direct_binding"]
-
-[observability]
-enabled = true
+compatibility_date = "2024-09-19"
+compatibility_flags = ["experimental", "kv_direct_binding", "nodejs_compat"]
 
 routes = [{ pattern = "rbsttr.tv", custom_domain = true }]
 
-# KV Namespace binding - For more information: https://developers.cloudflare.com/workers/runtime-apis/kv
 [[kv_namespaces]]
 binding = "URLS"
 id = "fde811d23bd544a8ad15f3b6a2166d8c"
 
-[vars]
-SERVICE_NAME = "url-shortener"
+# Pre-release
+[observability]
+enabled = true
