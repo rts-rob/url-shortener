@@ -1,14 +1,12 @@
 name = "url-shortener"
 main = "src/worker.ts"
-compatibility_date = "2024-01-12"
-compatibility_flags = [ "nodejs_compat" ]
+compatibility_date = "2024-08-15"
+compatibility_flags = ["experimental", "kv_direct_binding", "nodejs_compat"]
 
-# Send telemetry to Baselime via Tail Worker
-tail_consumers = [{service = "url-shortener-tail"}]
+[observability]
+enabled = true
 
-routes = [
-    { pattern = "rbsttr.tv", custom_domain = true }
-]
+routes = [{ pattern = "rbsttr.tv", custom_domain = true }]
 
 # KV Namespace binding - For more information: https://developers.cloudflare.com/workers/runtime-apis/kv
 [[kv_namespaces]]
