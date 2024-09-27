@@ -1,6 +1,6 @@
 name = "url-shortener"
-compatibility_date = "2024-09-19"
-compatibility_flags = ["experimental", "kv_direct_binding", "nodejs_compat"]
+compatibility_date = "2024-09-27"
+compatibility_flags = [ "nodejs_compat" ]
 
 routes = [{ pattern = "rbsttr.tv", custom_domain = true }]
 
