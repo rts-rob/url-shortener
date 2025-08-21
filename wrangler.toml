@@ -1,5 +1,5 @@
 name = "url-shortener"
-compatibility_date = "2024-09-27"
+compatibility_date = "2025-08-21"
 compatibility_flags = [
     "nodejs_compat",
     "tail_worker_user_spans",
