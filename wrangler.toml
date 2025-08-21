@@ -10,8 +10,7 @@ routes = [{ pattern = "rbsttr.tv", custom_domain = true }]
 
 [[kv_namespaces]]
 binding = "URLS"
-id = "9b0e7e5dacb14591a4aa7b1d34ad432e" # Beta
-# id = "fde811d23bd544a8ad15f3b6a2166d8c" # Old
+id = "fde811d23bd544a8ad15f3b6a2166d8c"
 
 [observability]
 enabled = true
