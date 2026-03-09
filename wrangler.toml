@@ -1,10 +1,5 @@
 name = "url-shortener"
 compatibility_date = "2025-08-21"
-compatibility_flags = [
-    "nodejs_compat",
-    "tail_worker_user_spans",
-    "streaming_tail_worker",
-]
 
 routes = [{ pattern = "rbsttr.tv", custom_domain = true }]
 
@@ -14,7 +9,3 @@ id = "fde811d23bd544a8ad15f3b6a2166d8c"
 
 [observability]
 enabled = true
-
-# Pre-release
-[[tail_consumers]]
-service = "otel-streaming-tail-worker"
